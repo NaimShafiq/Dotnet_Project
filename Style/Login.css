@@ -1,0 +1,128 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/Images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.loginbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 450px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.user {
+    width: 109px;
+    height: 100px;
+    overflow: hidden;
+    top:-35px;
+    left: 118px;
+    position: absolute;
+    right: 154px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.lbluname, .lblpass{
+    font-weight:bold;
+    color: white;
+}
+
+.txtuname, .txtpass {
+    width: 100%;
+    margin-bottom: 2px;
+    border: none;
+    border-bottom:3px solid white;
+    outline:none;
+    height:40px;
+    color:white;
+    font-size:16px;
+    background-color:transparent;
+}
+
+.btnsubmit{
+    width:100%;
+    margin-bottom:20px;
+    border:none;
+    outline:none;
+    height:40px;
+    font-size:16px;
+    color:white;
+    background-color:darkgray;
+    cursor:pointer;
+    border-radius:20px;
+    transition: .3s ease-in-out;
+}
+
+.btnsubmit:hover{
+    background-color:black;
+}
+
+.forgetpass {
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: white;
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.forgetpass:hover {
+     color: deepskyblue;
+     text-decoration: underline;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.regnow {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.regnow:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+::placeholder{
+    color:lightgrey;
+}
+
+
+.registerbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+    height: 650px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+    margin-top: 80px;
+}

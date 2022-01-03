@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="CourtBooking.MasterPage.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title> 
+        <asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Style/Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+ <form id="form1" runat="server">
+       
+        <div class="menu">
+         <ul>
+            <li><a href="../Login.aspx">Log Out</a></li>
+             <li><a href="UserProfile.aspx">Profile</a></li>
+            <li><a href="ContactUs.aspx">Contact Us</a></li>
+            <li><a href="Booking.aspx">Court Booking</a></li>
+            <li><a href="HomePage.aspx">Home</a></li>
+         </ul>
+        
+       </div>
+         <div class="clear"></div>
+         <div class="content">
+         <div>
+         <asp:ContentPlaceHolder id="bodyContent" runat="server">
+           
+         </asp:ContentPlaceHolder>
+        </div>
+    </div>
+        <div class="clear"></div>
+</form>
+
+     <div class="footer">
+        <h2>Copyright 2020 @ H Badminton Court</h2>
+     </div>
+</body>
+</html>
